@@ -1,0 +1,15 @@
+1. Create spanned table with 2 rows and 2 cols
+    => Case 1: Span 2 rows
+    => Case 2: Span 2 cols
+
+2. Design a form for signup:
+    Include:
+    - Username
+    - Name
+    - Password
+    - Confirm Password
+    - Gender (radio)
+    - Hobbies (checkbox)
+    - Country (dropdown)
+    - Submit button
+    => Notes: Use fieldsets and legends o to make attractive    
