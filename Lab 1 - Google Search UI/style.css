@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: rgb(24, 24, 24);
+}
+
+body {
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: end;
+    padding: 1rem 1.4rem;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+
+}
+
+.container {
+    height: 100vh;
+    display: block;
+}
+
+.middleContainer {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#logo {
+    height: 6rem;
+    width: auto;
+
+}
+
+.searchIcon {
+    height: 1rem;
+    width: auto;
+}
+
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0.6rem 1.4rem;
+    border: 0.4px solid rgba(128, 128, 128, 0.568);
+    border-radius: 4rem;
+    width: 35vw;
+    margin: 0.8rem 0rem;
+}
+
+.textInput {
+    padding: 0.4rem 0.8rem;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.textInput:focus {
+    outline: none;
+
+}
+
+.altSearch {
+    height: 1.6rem;
+    width: auto;
+}
+
+
+.altSearch:hover{
+    cursor: pointer;
+}
+
+.profIcon{
+    height: 1.6rem;
+    width: 1.6rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.icon{
+    height: 1.3rem;
+    width: 1.3rem;
+    color: gray;
+}
+
+.flex{
+    display: flex;
+    gap: 1.2rem;
+}
+
+.tabs{
+    margin: 0.4rem 0;
+}
+
+.tabs div{
+    background-color: rgb(227, 227, 227);
+    padding: 0.4rem 1rem;
+}
+
+.tabs div:hover{
+    cursor: pointer;
+}
+
+
+ul{
+    width: fit-content;
+}
+
+li{
+    width: fit-content;
+}
